@@ -1,0 +1,130 @@
+﻿<?Infragistics.Models format="xaml" version="28"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                          xmlns:d="http://prototypes.infragistics.com/views/design"
+                                                          Id="7c4b7389-8653-4851-9ab2-07689f8f973a" d:Design.ShowGuides="False">
+    <Page.Content>
+        <Content Width="1024" Height="768" Id="f41fab00-2e6a-4944-8f80-aa4abdb7ee58">
+            <Content.Layers>
+                <Layer Id="57f15fa4-7034-415c-879f-eb7216802215" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="803884d0-4e2a-4eeb-928e-1bee8c9feea2" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Size="1024,768" Id="a6400ee5-e22b-4465-9480-5bc957a0b7f1" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="c9490bd8-74b1-46fd-b095-7b3c7d2fea9c" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="Browser" Orientation="None" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="01/12/2015 04:08:59" Id="7e079320-7222-4c2a-8a41-dc0b425d2fd9">
+            <Scene.KeyFrames>
+                <KeyFrame Id="7c1aac93-6a23-4bfa-bd9c-71f058aaef77">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="57f15fa4-7034-415c-879f-eb7216802215">
+                            <Add.Item>
+                                <BootstrapBox Id="ee4449a8-b16b-4396-bd7d-e1fedb1976ea" Panel.Layout="Stretch">
+                                    <BootstrapBox.Content>
+                                        <BootstrapContainer Id="5c8b4009-ef3a-4b9d-939a-a80d80221f9c" />
+                                    </BootstrapBox.Content>
+                                </BootstrapBox>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="57f15fa4-7034-415c-879f-eb7216802215">
+                            <Add.Item>
+                                <Image SourcePath="assets/Mapa.png" Id="87db64fa-7a60-4880-9b45-19f03454544d" Panel.Bounds="103,67,349{5,2147483647},458{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="57f15fa4-7034-415c-879f-eb7216802215">
+                            <Add.Item>
+                                <Image SourcePath="assets/logoCloudParker.png" Id="b455080e-5a83-43d4-a4a7-4dddd357f51f" Panel.Bounds="554,55,133{5,2147483647},137{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="57f15fa4-7034-415c-879f-eb7216802215">
+                            <Add.Item>
+                                <Title Text="Cloud&#xA;P A R K E R" FontSize="36" FontStyle="Bold" Id="564568f2-9ced-4c8f-9dde-201aa0b851dd" Panel.Bounds="715,60,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="57f15fa4-7034-415c-879f-eb7216802215">
+                            <Add.Item>
+                                <Button Text="Inisiar Sesión" Id="1f332e84-4c9a-4513-b284-af1cdedebec5" Panel.Bounds="688,418,107{5,2147483647},35{5,2147483647}">
+                                    <Button.Click>
+                                        <CommandNavigate Screen="/Web/modosDeUso.screen" Created="01/12/2015 06:21:03" Id="ec07e4d4-beb1-4437-86c9-2b1f50533026">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Button.Click>
+                                </Button>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="57f15fa4-7034-415c-879f-eb7216802215">
+                            <Add.Item>
+                                <TextBox Text="correo@cominio.com" Foreground="#FFC6C6C6" FontSize="20" Id="140d03fa-bcf3-4711-bd81-56b0b94b9414" Panel.Bounds="588,248,330{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="57f15fa4-7034-415c-879f-eb7216802215">
+                            <Add.Item>
+                                <Label Text="Correo | Usuario | Telefono" FontSize="22" FontStyle="Bold" Id="cf9d3d37-4f22-42bf-8169-ed928c0bae6a" Panel.Bounds="555,206,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="57f15fa4-7034-415c-879f-eb7216802215">
+                            <Add.Item>
+                                <Label Text="Contraseña" FontSize="20" FontStyle="Bold" Id="5cebefe1-8d26-4617-8b6b-a2c22eaa5cef" Panel.Bounds="555,296,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="57f15fa4-7034-415c-879f-eb7216802215">
+                            <Add.Item>
+                                <PasswordBox Password="ddddddd" Foreground="#FFAAAAAA" FontSize="20" Id="cd2f256a-9034-4f21-9ea6-c4836c92ec2a" Panel.Bounds="588,333,326{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="57f15fa4-7034-415c-879f-eb7216802215">
+                            <Add.Item>
+                                <CheckBox Text="Recordarme" Id="0049cd12-d801-47da-86d9-71b307ec7d86" BootstrapContainer.HorizontalAlignment="Left" Panel.Bounds="607,376,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="57f15fa4-7034-415c-879f-eb7216802215">
+                            <Add.Item>
+                                <Button Text="Registrarse" Id="95eb2249-bd5b-457d-a0d6-fc18c50de7fb" Panel.Bounds="814,418,107{5,2147483647},35{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="57f15fa4-7034-415c-879f-eb7216802215">
+                            <Add.Item>
+                                <Link Text="Recuperar Contraseña" FontStyle="Normal|Underline" Id="f8ee7cd8-a8ed-42de-8e99-64b0275aa4ad" BootstrapContainer.HorizontalAlignment="Left" Panel.Bounds="585,474,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="57f15fa4-7034-415c-879f-eb7216802215">
+                            <Add.Item>
+                                <Rectangle Background="#FF2E6CA4" Id="438257ab-b3e0-41b1-a55b-ce7daac00e04" Panel.Bounds="103,536,349{5,2147483647},145{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="57f15fa4-7034-415c-879f-eb7216802215">
+                            <Add.Item>
+                                <Label Text="La primer platadorma de administracion de estacionamientos en el mundo. Podras crear dar te alta tus estacionamientos y administrarlos. Dale a tus usuarios el mejor servicio." Foreground="#FFE2E2E2" Id="a195f1c0-4c31-4bcb-ae8e-b0c52bfdd6ac" Panel.Bounds="123,553,310{5,2147483647},107{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="57f15fa4-7034-415c-879f-eb7216802215">
+                            <Add.Item>
+                                <Image SourcePath="assets/logoCloudParker.png" Opacity="0.2" Id="5ac896d2-84e1-4b2b-b1fe-30267417680c" Panel.Bounds="25,695,84{5,2147483647},85{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="57f15fa4-7034-415c-879f-eb7216802215">
+                            <Add.Item>
+                                <Title Text="Cloud P A R K E R ®" FontSize="20" FontStyle="Bold" Opacity="0.4" Id="208d0fb9-25d8-4b23-9d60-f56471bb4289" Panel.Bounds="123,723,432{5,2147483647},99*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="57f15fa4-7034-415c-879f-eb7216802215">
+                            <Add.Item>
+                                <Title Text="sopourt@cloudparker.com" FontSize="18" Opacity="0.4" Id="4037692d-407a-483c-bd1d-f3e32c29c50c" Panel.Bounds="748,717,256{5,2147483647},99*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Set Property="Content.AutoHeight" Value="True" Target="f41fab00-2e6a-4944-8f80-aa4abdb7ee58" />
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>

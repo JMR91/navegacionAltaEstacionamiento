@@ -1,0 +1,96 @@
+﻿<?Infragistics.Models format="xaml" version="28"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                          Id="44910c4a-6212-4ecf-9843-60f6f88ca2e9">
+    <Page.Content>
+        <Content Width="800" Height="600" Id="5c6b658d-2ecf-431b-9b49-4279a4bd0d54">
+            <Content.Layers>
+                <Layer Id="e0104a8a-067f-4212-a9d1-476cd4e67e52" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="168a81ec-f287-4ab9-bda3-b854f142c9d8" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Size="800,600" Id="d22dd6e0-0e50-4968-bd68-59df1c8015b9" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="90ca7bdf-3236-482b-a762-3869b2686194" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="Browser" Orientation="None" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="01/12/2015 06:06:59" Id="705ffe9f-5345-415d-ab0f-de23bd877cb6">
+            <Scene.KeyFrames>
+                <KeyFrame Id="374ede24-fc23-432e-91b7-608373dbec73">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="e0104a8a-067f-4212-a9d1-476cd4e67e52">
+                            <Add.Item>
+                                <Rectangle Background="#FF000000" Opacity="0.8" Id="9799eb8b-095c-434c-96d6-50e68c95208f" Panel.Bounds="0,0,797{5,2147483647},597{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="e0104a8a-067f-4212-a9d1-476cd4e67e52">
+                            <Add.Item>
+                                <ContainerBox Background="#FFE2E2E2" Id="ce3f9606-ab3b-4426-93b1-9b4cdf6fb0e8" Panel.Bounds="246,77,300{5,2147483647},373{5,2147483647}">
+                                    <ContainerBox.Content>
+                                        <Container ClipToContainer="True" Id="7cf5091e-79a3-4815-b9c1-2d8612b74e29" />
+                                    </ContainerBox.Content>
+                                </ContainerBox>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="e0104a8a-067f-4212-a9d1-476cd4e67e52">
+                            <Add.Item>
+                                <Title Text="Modo de uso" Id="990738c5-e4f7-4f38-a072-1f375e366c67" Panel.Bounds="284,92,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="e0104a8a-067f-4212-a9d1-476cd4e67e52">
+                            <Add.Item>
+                                <OptionGroup Id="75655c6a-1538-422a-8179-9201f8728620" Panel.Bounds="284,148,5*{5,2147483647},5*{5,2147483647}">
+                                    <OptionGroup.Items>
+                                        <Option Text="Estacionamiento" Id="24255dc1-7216-4162-bde1-2e6aeba569fa" />
+                                    </OptionGroup.Items>
+                                </OptionGroup>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="e0104a8a-067f-4212-a9d1-476cd4e67e52">
+                            <Add.Item>
+                                <OptionGroup Id="34d21fdf-6750-4139-bef4-dccb28207f6b" Panel.Bounds="284,258,5*{5,2147483647},5*{5,2147483647}">
+                                    <OptionGroup.Items>
+                                        <Option Text="Valet" Id="02273388-e86c-4f78-b4cb-42c1e636d503" />
+                                    </OptionGroup.Items>
+                                </OptionGroup>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="e0104a8a-067f-4212-a9d1-476cd4e67e52">
+                            <Add.Item>
+                                <Label Text="Permite el uso de niveles, cajones, pensión, multiples puntos de acceso y pension." Id="0c63b5fa-bbd9-4b9b-aa1d-338f33076ac2" Panel.Bounds="284,176,221{5,2147483647},61{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="e0104a8a-067f-4212-a9d1-476cd4e67e52">
+                            <Add.Item>
+                                <Label Text="Permite el uso de multiples ubicaiones de estacionamiento, niveles, cajones y multiples puntos de acceso" Id="999800f9-8db2-4a43-be83-fe5f186f266e" Panel.Bounds="293,285,221{5,2147483647},78{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="e0104a8a-067f-4212-a9d1-476cd4e67e52">
+                            <Add.Item>
+                                <Button Text="Aceptar" Id="004ab06f-8a15-4b50-9bd4-b6d82193c012" Panel.Bounds="360,386,80{5,2147483647},35{5,2147483647}">
+                                    <Button.Click>
+                                        <CommandSwitchTo SceneId="d2e8df87-9274-497b-969a-85154a7dd6b5" Created="01/12/2015 06:19:52" Id="2d4a6144-e174-4f5c-b10d-03dbee0b3d4d" />
+                                    </Button.Click>
+                                </Button>
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+        <Scene Title="Tapped/Clicked Aceptar" StateGroup="705ffe9f-5345-415d-ab0f-de23bd877cb6" ParentScene="705ffe9f-5345-415d-ab0f-de23bd877cb6" Created="01/12/2015 06:19:52" Id="d2e8df87-9274-497b-969a-85154a7dd6b5">
+            <Scene.KeyFrames>
+                <KeyFrame Id="1d3c1fa7-fa95-48f9-8655-131ae50f01b5">
+                    <KeyFrame.Operations>
+                        <Remove Target="004ab06f-8a15-4b50-9bd4-b6d82193c012" />
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>
