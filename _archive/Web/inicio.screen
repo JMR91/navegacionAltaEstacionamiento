@@ -50,19 +50,6 @@
                         </Add>
                         <Add Property="Panel.Children" Target="57f15fa4-7034-415c-879f-eb7216802215">
                             <Add.Item>
-                                <Button Text="Inisiar Sesión" Id="1f332e84-4c9a-4513-b284-af1cdedebec5" Panel.Bounds="688,418,107{5,2147483647},35{5,2147483647}">
-                                    <Button.Click>
-                                        <CommandNavigate Screen="/Web/modosDeUso.screen" Created="01/12/2015 06:21:03" Id="ec07e4d4-beb1-4437-86c9-2b1f50533026">
-                                            <CommandNavigate.Transition>
-                                                <NavigateTransition Duration="0" />
-                                            </CommandNavigate.Transition>
-                                        </CommandNavigate>
-                                    </Button.Click>
-                                </Button>
-                            </Add.Item>
-                        </Add>
-                        <Add Property="Panel.Children" Target="57f15fa4-7034-415c-879f-eb7216802215">
-                            <Add.Item>
                                 <TextBox Text="correo@cominio.com" Foreground="#FFC6C6C6" FontSize="20" Id="140d03fa-bcf3-4711-bd81-56b0b94b9414" Panel.Bounds="588,248,330{5,2147483647},5*{5,2147483647}" />
                             </Add.Item>
                         </Add>
@@ -88,12 +75,7 @@
                         </Add>
                         <Add Property="Panel.Children" Target="57f15fa4-7034-415c-879f-eb7216802215">
                             <Add.Item>
-                                <Button Text="Registrarse" Id="95eb2249-bd5b-457d-a0d6-fc18c50de7fb" Panel.Bounds="814,418,107{5,2147483647},35{5,2147483647}" />
-                            </Add.Item>
-                        </Add>
-                        <Add Property="Panel.Children" Target="57f15fa4-7034-415c-879f-eb7216802215">
-                            <Add.Item>
-                                <Link Text="Recuperar Contraseña" FontStyle="Normal|Underline" Id="f8ee7cd8-a8ed-42de-8e99-64b0275aa4ad" BootstrapContainer.HorizontalAlignment="Left" Panel.Bounds="585,474,5*{5,2147483647},5*{5,2147483647}" />
+                                <Link Text="Recuperar Contraseña" FontStyle="Normal|Underline" Id="f8ee7cd8-a8ed-42de-8e99-64b0275aa4ad" BootstrapContainer.HorizontalAlignment="Left" Panel.Bounds="555,408,5*{5,2147483647},5*{5,2147483647}" />
                             </Add.Item>
                         </Add>
                         <Add Property="Panel.Children" Target="57f15fa4-7034-415c-879f-eb7216802215">
@@ -119,6 +101,32 @@
                         <Add Property="Panel.Children" Target="57f15fa4-7034-415c-879f-eb7216802215">
                             <Add.Item>
                                 <Title Text="sopourt@cloudparker.com" FontSize="18" Opacity="0.4" Id="4037692d-407a-483c-bd1d-f3e32c29c50c" Panel.Bounds="748,717,256{5,2147483647},99*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="57f15fa4-7034-415c-879f-eb7216802215">
+                            <Add.Item>
+                                <Button Text="Inisiar Sesion" Id="9788f8e0-b239-4d62-857e-bdd415b4df40" Panel.Bounds="665,449,116{5,2147483647},35{5,2147483647}">
+                                    <Button.Click>
+                                        <CommandNavigate Screen="/Web/configuracionBasica.screen" Created="01/16/2015 05:26:00" Id="9a7e5cb7-ba54-4b35-a25c-a18b206ca8e9">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Button.Click>
+                                </Button>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="57f15fa4-7034-415c-879f-eb7216802215">
+                            <Add.Item>
+                                <Button Text="Registrarse" Id="803e4aca-5d8a-43f3-9d2a-8d83e0270ada" Panel.Bounds="802,449,116{5,2147483647},35{5,2147483647}">
+                                    <Button.MouseOver>
+                                        <CommandNavigate Screen="/Web/altaAdministrador.screen" Created="01/14/2015 03:23:59" Id="fe3bed67-d3ae-4b3f-ba3f-5e6fae1b2b06">
+                                            <CommandNavigate.Transition>
+                                                <NavigateTransition Duration="0" />
+                                            </CommandNavigate.Transition>
+                                        </CommandNavigate>
+                                    </Button.MouseOver>
+                                </Button>
                             </Add.Item>
                         </Add>
                         <Set Property="Content.AutoHeight" Value="True" Target="f41fab00-2e6a-4944-8f80-aa4abdb7ee58" />

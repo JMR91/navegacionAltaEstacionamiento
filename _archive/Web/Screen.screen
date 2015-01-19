@@ -1,0 +1,251 @@
+﻿<?Infragistics.Models format="xaml" version="28"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                          xmlns:d="http://prototypes.infragistics.com/views/design"
+                                                          Id="69080e63-2387-4a0e-8902-47043a47afeb" d:Design.ShowGuides="False">
+    <Page.Content>
+        <Content Width="1024" Height="768" Id="a85ebb47-623b-4bee-ab57-b767030e82e0">
+            <Content.Layers>
+                <Layer Id="1edd8e78-465b-47c7-961f-b2a9de1df482" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="545236a3-7d65-4fd1-a0d4-8e456a4aa9c4" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Size="1024,768" Id="54bf33b0-5ffa-4ec9-97df-3bba2dc03c2b" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="9d71cd01-2257-4f27-ac93-fbc789ea4d18" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="Browser" Orientation="None" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="01/16/2015 06:14:06" Id="aedd70d2-fa56-4ffb-9f9f-00f54cd544a7">
+            <Scene.KeyFrames>
+                <KeyFrame Id="ef096649-97be-49c1-b155-9cf41ae5ad0e">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="1edd8e78-465b-47c7-961f-b2a9de1df482">
+                            <Add.Item>
+                                <BootstrapBox Id="7567ee16-65e2-4b6a-b19c-4a359bbc03e8" Panel.Layout="Stretch">
+                                    <BootstrapBox.Content>
+                                        <BootstrapContainer Id="ed79ad94-c426-4daa-9fbc-9842751c9f41" />
+                                    </BootstrapBox.Content>
+                                </BootstrapBox>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="1edd8e78-465b-47c7-961f-b2a9de1df482">
+                            <Add.Item>
+                                <Rectangle Background="#FF417BAD" Id="7e9349a4-f705-4605-8d26-a641637e10d8" Panel.Bounds="1,1,1023{5,2147483647},45{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="1edd8e78-465b-47c7-961f-b2a9de1df482">
+                            <Add.Item>
+                                <Rectangle Color="#FF417BAD" Background="#FF417BAD" Id="b61cef46-ba23-4907-bdb8-5424c919f82b" Panel.Bounds="1,34,285{5,2147483647},696{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="1edd8e78-465b-47c7-961f-b2a9de1df482">
+                            <Add.Item>
+                                <Rectangle Color="#FF417BAD" Background="#FF417BAD" Id="843cd9cb-55a1-443c-a5db-6c7514b3ebb3" Panel.Bounds="1,722,1023{5,2147483647},45{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="1edd8e78-465b-47c7-961f-b2a9de1df482">
+                            <Add.Item>
+                                <Image SourcePath="assets/logoCloudParker2(2).png" Id="7c47225b-9c26-4b84-a2ce-a43915da9cd3" Panel.Bounds="18,2,46{5,2147483647},50{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="1edd8e78-465b-47c7-961f-b2a9de1df482">
+                            <Add.Item>
+                                <Label Text="Cloud Parker" Foreground="#FDEDEDED" FontSize="18" FontStyle="Bold" Id="ce306353-e186-4a2c-8a93-d7c598a00e32" Panel.Bounds="81,10,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="1edd8e78-465b-47c7-961f-b2a9de1df482">
+                            <Add.Item>
+                                <Link Text="Cerrar Sesión" Foreground="#FFE2E2E2" FontSize="16" FontStyle="Underline|Bold" Id="d8c66adb-64ff-4e9c-afa2-c59f05cb53b6" BootstrapContainer.HorizontalAlignment="Left" Panel.Bounds="899,12,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="1edd8e78-465b-47c7-961f-b2a9de1df482">
+                            <Add.Item>
+                                <ComboBox Hint="Auto Remedio" Id="d73b3551-3842-4815-a148-7050da720fcc" Panel.Bounds="219,9,226{5,2147483647},28{5,2147483647}">
+                                    <ComboBox.Items>
+                                        <Item Text="Nuevo estacionamiento" Id="e6cfcb63-ff3f-4463-beaa-ec56533e99c4" />
+                                    </ComboBox.Items>
+                                </ComboBox>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="1edd8e78-465b-47c7-961f-b2a9de1df482">
+                            <Add.Item>
+                                <Rectangle Background="#FFE2E2E2" Id="51754280-210a-41e0-afa5-fab97a10d0fb" Panel.Bounds="18,44,252{5,2147483647},678{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="1edd8e78-465b-47c7-961f-b2a9de1df482">
+                            <Add.Item>
+                                <TextBox Text="Auto Remedio" FontSize="16" Id="ee6d8ab0-4db5-49bb-a3b9-b552ca37f1ff" Panel.Bounds="37,287,217{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="1edd8e78-465b-47c7-961f-b2a9de1df482">
+                            <Add.Item>
+                                <Image SourcePath="assets/Logo-Auto-Remedio(1).png" Id="dc57aa9d-32d1-4183-b3de-a8114d0c80d3" Panel.Bounds="50,106,192,174" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="1edd8e78-465b-47c7-961f-b2a9de1df482">
+                            <Add.Item>
+                                <Label Text="HORARIO" Align="Center" FontSize="18" Id="88211de9-aca1-4f24-8c61-63d9b9c9fd3b" Panel.Bounds="49,332,196{5,2147483647},18*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="1edd8e78-465b-47c7-961f-b2a9de1df482">
+                            <Add.Item>
+                                <Label Text="Dom" FontSize="16" Id="98baca9e-2103-4663-a0c1-70b2415972e6" Panel.Bounds="37,558,47{5,2147483647},18*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="1edd8e78-465b-47c7-961f-b2a9de1df482">
+                            <Add.Item>
+                                <Label Text="Sab" FontSize="16" Id="bec21799-7a27-40dd-afca-bd708cef302b" Panel.Bounds="36,528,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="1edd8e78-465b-47c7-961f-b2a9de1df482">
+                            <Add.Item>
+                                <Label Text="Vie" FontSize="16" Id="1ebbe46c-d488-46d1-a921-6ec2a3f3732d" Panel.Bounds="36,496,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="1edd8e78-465b-47c7-961f-b2a9de1df482">
+                            <Add.Item>
+                                <Label Text="Jue" FontSize="16" Id="80a3b6d1-3315-4482-9429-12748d92633a" Panel.Bounds="37,464,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="1edd8e78-465b-47c7-961f-b2a9de1df482">
+                            <Add.Item>
+                                <Label Text="Mie" FontSize="16" Id="2cdb1c92-d0fd-4dc9-b0b6-5b21f96672e4" Panel.Bounds="36,435,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="1edd8e78-465b-47c7-961f-b2a9de1df482">
+                            <Add.Item>
+                                <Label Text="Mar" FontSize="16" Id="b67e4998-2b30-4394-a523-cdf2d7f31abd" Panel.Bounds="35,403,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="1edd8e78-465b-47c7-961f-b2a9de1df482">
+                            <Add.Item>
+                                <Label Text="Lun" FontSize="16" Id="45632d34-4b58-407a-9312-8f97170eae23" Panel.Bounds="37,369,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="1edd8e78-465b-47c7-961f-b2a9de1df482">
+                            <Add.Item>
+                                <TextBox Text="08:00 a.m." Id="d94de9b5-e451-4ec4-bbf3-214ecdd269d3" Panel.Bounds="87,371,76{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="1edd8e78-465b-47c7-961f-b2a9de1df482">
+                            <Add.Item>
+                                <TextBox Text="08:00 a.m." Id="b06d4a0a-e1b4-48f0-bbe5-fcb313307db5" Panel.Bounds="87,404,76{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="1edd8e78-465b-47c7-961f-b2a9de1df482">
+                            <Add.Item>
+                                <TextBox Text="08:00 a.m." Id="6bb369d1-a854-4a57-8016-f557f0db49be" Panel.Bounds="87,434,76{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="1edd8e78-465b-47c7-961f-b2a9de1df482">
+                            <Add.Item>
+                                <TextBox Text="08:00 a.m." Id="cc2a5c92-1a24-40ad-a2ef-60e0a3d2a91d" Panel.Bounds="87,465,76{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="1edd8e78-465b-47c7-961f-b2a9de1df482">
+                            <Add.Item>
+                                <TextBox Text="08:00 a.m." Id="274cded0-da7f-4ff1-929c-6e850c015dfd" Panel.Bounds="87,495,76{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="1edd8e78-465b-47c7-961f-b2a9de1df482">
+                            <Add.Item>
+                                <TextBox Text="08:00 a.m." Id="20069115-d33c-4470-8286-c94d9be72103" Panel.Bounds="87,526,76{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="1edd8e78-465b-47c7-961f-b2a9de1df482">
+                            <Add.Item>
+                                <TextBox Text="08:00 a.m." Id="7b02cb20-9c72-42ad-83dd-e3a7ce839da7" Panel.Bounds="87,557,76{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="1edd8e78-465b-47c7-961f-b2a9de1df482">
+                            <Add.Item>
+                                <TextBox Text="10:00 p.m." Id="bc84cc53-80e5-4152-ae15-76ba481abf58" Panel.Bounds="174,371,76{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="1edd8e78-465b-47c7-961f-b2a9de1df482">
+                            <Add.Item>
+                                <TextBox Text="10:00 p.m." Id="51adf57c-8a3b-4df2-8966-6dffa6dac5ec" Panel.Bounds="174,404,76{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="1edd8e78-465b-47c7-961f-b2a9de1df482">
+                            <Add.Item>
+                                <TextBox Text="10:00 p.m." Id="383bc307-57bf-495c-8d41-54a45a9de33a" Panel.Bounds="174,434,76{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="1edd8e78-465b-47c7-961f-b2a9de1df482">
+                            <Add.Item>
+                                <TextBox Text="10:00 p.m." Id="9e4f8ab3-d3b6-41c1-8d2f-1c9e9ec2a526" Panel.Bounds="174,465,76{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="1edd8e78-465b-47c7-961f-b2a9de1df482">
+                            <Add.Item>
+                                <TextBox Text="10:00 p.m." Id="73c4321a-05ff-49ba-8e6f-ab1178df7fb1" Panel.Bounds="174,495,76{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="1edd8e78-465b-47c7-961f-b2a9de1df482">
+                            <Add.Item>
+                                <TextBox Text="10:00 p.m." Id="ed0dba65-da2b-45fc-8809-00e22dd42111" Panel.Bounds="174,526,76{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="1edd8e78-465b-47c7-961f-b2a9de1df482">
+                            <Add.Item>
+                                <TextBox Text="10:00 p.m." Id="69507c8b-fe46-4ea3-a066-f28409a368d8" Panel.Bounds="174,557,76{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="1edd8e78-465b-47c7-961f-b2a9de1df482">
+                            <Add.Item>
+                                <CheckBox Text="Mismo horario" IsChecked="True" FontSize="12" Id="5fcb64d2-c1ea-4832-94e6-1b911085c696" BootstrapContainer.HorizontalAlignment="Left" Panel.Bounds="81,587,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="1edd8e78-465b-47c7-961f-b2a9de1df482">
+                            <Add.Item>
+                                <Button Text="GUARDAR" Id="3da2986b-0070-40f2-8bd2-b8b37ade60d2" Panel.Bounds="38,643,219{5,2147483647},35{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="1edd8e78-465b-47c7-961f-b2a9de1df482">
+                            <Add.Item>
+                                <Label Text="Estacionamiento" Align="Center" FontSize="22" Id="fc16696c-652f-428a-b694-7c578380f7a0" Panel.Bounds="27,71,233{5,2147483647},30*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="1edd8e78-465b-47c7-961f-b2a9de1df482">
+                            <Add.Item>
+                                <Icon Color="#FFFFFFFF" CatalogId="Dollar" Id="0413ecb3-d6e7-4b71-809a-8d7d30b0b7e4" BootstrapContainer.HorizontalAlignment="Center" Panel.Bounds="778,7,33{5,2147483647},33{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="1edd8e78-465b-47c7-961f-b2a9de1df482">
+                            <Add.Item>
+                                <Icon Color="#FFFFFFFF" CatalogId="Checkout" Id="63e822c6-786c-4686-8866-f9c6f6b39784" BootstrapContainer.HorizontalAlignment="Center" Panel.Bounds="597,9,30{5,2147483647},30{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="1edd8e78-465b-47c7-961f-b2a9de1df482">
+                            <Add.Item>
+                                <Icon Color="#FFFFFFFF" CatalogId="Hand Open" Id="c29e5414-a3e6-48bc-b99c-000055927cfc" BootstrapContainer.HorizontalAlignment="Center" Panel.Bounds="472,3,37{5,2147483647},37{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="1edd8e78-465b-47c7-961f-b2a9de1df482">
+                            <Add.Item>
+                                <Label Text="Servicios" Foreground="#FFFFFFFF" FontSize="16" Id="7c8c4de5-6fc3-4444-85da-1bf155b14cb3" Panel.Bounds="513,13,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="1edd8e78-465b-47c7-961f-b2a9de1df482">
+                            <Add.Item>
+                                <Label Text="Establecimientos" Foreground="#FFFFFFFF" FontSize="16" Id="0ca4410e-5974-4bbf-91a8-dc1d1a98b459" Panel.Bounds="637,11,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="1edd8e78-465b-47c7-961f-b2a9de1df482">
+                            <Add.Item>
+                                <Label Text="Tarifas" Foreground="#FFFFFFFF" FontSize="16" Id="ac17f670-be50-40d6-b8ab-da8f54535570" Panel.Bounds="813,10,5*{5,2147483647},5*{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Set Property="Content.AutoHeight" Value="True" Target="a85ebb47-623b-4bee-ab57-b767030e82e0" />
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>

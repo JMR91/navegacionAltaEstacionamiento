@@ -1,0 +1,47 @@
+﻿<?Infragistics.Models format="xaml" version="28"?>
+<Page xmlns="http://prototypes.infragistics.com/"
+                                                          xmlns:d="http://prototypes.infragistics.com/views/design"
+                                                          Id="d4dcc603-0ce5-4dc6-903a-656293b536fd" d:Design.ShowGuides="False">
+    <Page.Content>
+        <Content Width="1024" Height="768" Id="b6c9531e-a880-4061-8384-5beca2f82f11">
+            <Content.Layers>
+                <Layer Id="8f112048-5ae5-456e-9424-b8c96049ec8b" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="4e3492db-32b3-4a65-ab89-d83118e210c9" Panel.Layout="Stretch" />
+            </Content.Layers>
+            <Content.Viewbox>
+                <Viewbox Size="1024,768" Id="ae950251-254d-4367-b1c3-7accd1225420" />
+            </Content.Viewbox>
+            <Content.GuidesInfo>
+                <GuidesInfo Id="7c4ce391-dc15-43e7-9d96-5ce682c7d05a" />
+            </Content.GuidesInfo>
+        </Content>
+    </Page.Content>
+    <Page.Device>
+        <DeviceInfo Id="Browser" Orientation="None" />
+    </Page.Device>
+    <Page.Scenes>
+        <Scene Title="Start" Created="01/14/2015 05:09:37" Id="805b0332-1f07-4b3f-ab6e-c590046cdda1">
+            <Scene.KeyFrames>
+                <KeyFrame Id="8b900c11-28ba-4e80-8a1c-6aafa9d315b3">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="8f112048-5ae5-456e-9424-b8c96049ec8b">
+                            <Add.Item>
+                                <BootstrapBox Id="a8555ce0-87e4-42b2-b1e6-8c4a19551f8c" Panel.Layout="Stretch">
+                                    <BootstrapBox.Content>
+                                        <BootstrapContainer Id="5ced04a1-26aa-41b9-a9c5-1a5bcbc268f8" />
+                                    </BootstrapBox.Content>
+                                </BootstrapBox>
+                            </Add.Item>
+                        </Add>
+                        <Add Property="Panel.Children" Target="8f112048-5ae5-456e-9424-b8c96049ec8b">
+                            <Add.Item>
+                                <Rectangle Id="539062e9-0f3f-4f77-b479-d34f6705d4f9" Panel.Bounds="0,0,1027{5,2147483647},62{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                        <Set Property="Content.AutoHeight" Value="True" Target="b6c9531e-a880-4061-8384-5beca2f82f11" />
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </Page.Scenes>
+</Page>

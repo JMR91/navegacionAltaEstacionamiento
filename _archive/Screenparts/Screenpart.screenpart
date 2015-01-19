@@ -1,0 +1,37 @@
+﻿<?Infragistics.Models format="xaml" version="2"?>
+<ScreenPart xmlns="http://prototypes.infragistics.com/"
+                                                               xmlns:d="http://prototypes.infragistics.com/views/design"
+                                                               Id="ebefe90f-2645-46f9-a50f-9cb2c030e789" d:Design.ShowGuides="False">
+    <ScreenPart.Content>
+        <BorderedContent Width="1022" Height="766" Background="#00FFFFFF" Id="86dc8c62-3066-4748-99b1-010250efd79c">
+            <BorderedContent.Layers>
+                <Layer Id="1683472b-cb20-4569-837c-f2bff8b014eb" Panel.Layout="Stretch" />
+                <AnnotationsLayer Id="99e4b4da-b27b-48ea-81fa-d63bcc62c161" Panel.Layout="Stretch" />
+            </BorderedContent.Layers>
+            <BorderedContent.Viewbox>
+                <Viewbox Id="a99460ca-444d-4a06-b7bb-1cc421abf13a" />
+            </BorderedContent.Viewbox>
+            <BorderedContent.GuidesInfo>
+                <GuidesInfo Id="0c011b37-08dd-4684-8378-13e5c6004635" />
+            </BorderedContent.GuidesInfo>
+        </BorderedContent>
+    </ScreenPart.Content>
+    <ScreenPart.Device>
+        <DeviceInfo Id="none" Orientation="None" />
+    </ScreenPart.Device>
+    <ScreenPart.Scenes>
+        <Scene Title="Initial state" Created="01/14/2015 03:17:10" Id="e66ccd3c-fd50-4518-b7ac-e3c7fa2348e9">
+            <Scene.KeyFrames>
+                <KeyFrame Id="f66f7beb-7ed7-442b-bb2a-b2cc926d3baf">
+                    <KeyFrame.Operations>
+                        <Add Property="Panel.Children" Target="1683472b-cb20-4569-837c-f2bff8b014eb">
+                            <Add.Item>
+                                <Rectangle Background="#FF383838" Opacity="0.8" Id="4cb613cc-18e4-415d-a919-8ca26ffdf4a9" Panel.Bounds="0,0,1022{5,2147483647},766{5,2147483647}" />
+                            </Add.Item>
+                        </Add>
+                    </KeyFrame.Operations>
+                </KeyFrame>
+            </Scene.KeyFrames>
+        </Scene>
+    </ScreenPart.Scenes>
+</ScreenPart>
